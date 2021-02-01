@@ -1,0 +1,39 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.instructions {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+    white-space: pre-line;
+}
+
+.btn:link, 
+.btn:visited {
+    display: inline-block;
+    border: 1px solid black;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all .2s;
+    color: black;
+    margin: 0 auto;
+    transition: all .2s;
+}
+
+.btn:hover,
+.btn:active {
+    background: black;
+    color: white;
+}
+
+.btn--intro {
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+}
