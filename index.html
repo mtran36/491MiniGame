@@ -8,7 +8,7 @@
 	</head>
 	<body>
 		<main>
-			<div class="instructions">
+			<!--<div class="instructions">
 				<h1>Instructions</h1>
 				<p>
 					Tap to the right key following the rhythm of the song.
@@ -17,8 +17,11 @@
 				<div class="intro">
 					<a class="btn btn--intro btn--menu" href="#">Menu</a>
 				</div>
-			</div>
+			</div>-->
 			<div class="menu">
+				<div class="start">
+					<a class="btn btn--start btn--start" href="#">Start</a>
+				</div>
 			</div>
 			<div class="game">
 				<div class="key_container">
@@ -26,9 +29,58 @@
 						<div class="keypress keypress--black"></div>
 						<span>A</span>
 					</div>
+					<div class="key key--w key--black">
+						<div class="keypress keypress-black"></div>
+						<span>W</span>
+					</div>
+					<div class="key key--d key--black">
+						<div class="keypress keypress-black"></div>
+						<span>D</span>
+					</div>
+					<div class="key key--j key--black">
+						<div class="keypress keypress-black"></div>
+						<span>J</span>
+					</div>
+					<div class="key key--i key--black">
+						<div class="keypress keypress-black"></div>
+						<span>I</span>
+					</div>
+					<div class="key key--l key--black">
+						<div class="keypress keypress-black"></div>
+						<span>L</span>
+					</div>
 				</div>
 			</div>
-			<div class="result">
+			<div class="scoreBoard">
+				<h2 class="score_header">Clear</h2>
+				<div class="score_accuracy perfect">
+					<p class="accuracy_header">Perfect: </p>
+					<p class="accuracy_count perfect_total"></p>
+				</div>
+				<div class="score_accuracy great">
+					<p class="accuracy_header">Great: </p>
+					<p class="accuracy_count great_total"></p>
+				</div>
+				<div class="score_accuracy good">
+					<p class="accuracy_header">Good: </p>
+					<p class="accuracy_count good_total"></p>
+				</div>
+				<div class="score_accuracy bad">
+					<p class="accuracy_header">Bad: </p>
+					<p class="accuracy_count bed_total"></p>
+				</div>
+				<div class="score_accuracy miss">
+					<p class="accuracy_header">Miss: </p>
+					<p class="accuracy_count miss_total"></p>
+				</div>
+				<div class="score_accuracy combo">
+					<p class="accuracy_header">Max Combo: </p>
+					<p class="accuracy_count combo_total"></p>
+				</div>
+				<div class="score_accuracy score">
+					<p class="accuracy_header">Score: </p>
+					<p class="accuracy_count score_total"></p>
+				</div>
 			</div>
 		</main>
 		<script src="main.js"></script>

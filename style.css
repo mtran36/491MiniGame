@@ -3,7 +3,30 @@ html, body {
     padding: 0;
 }
 
+:root {
+    --background: linear-gradient(to top, rgba(54, 239, 255), rgb(30, 246, 255));
+    --perfect: rgb(135, 0, 255);
+    --great: rgb(255, 0, 219);
+    --good: rgb(0, 62, 255);
+    --bad: rgb(255, 0, 0);
+    --miss: rgb(128, 128, 128);
+    --maxcombo: rgb(245, 255, 0);
+    --score: rgb(109, 0, 255);
+}
+
 .instructions {
+    position: absolute;
+    opacity: 1;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+    white-space: pre-line;
+}
+
+.game {
     position: absolute;
     width: 100%;
     text-align: center;
